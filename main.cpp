@@ -72,15 +72,7 @@ void quickSortMedian(vector<int>& arrayOne, int bottom, int top) {
     }
 }
 
-void selectionSort(vector<int>& arrayOne){
 
-    for(int i=0;i < arrayOne.size()-1;i++){
-        for(int j=i+1;j < arrayOne.size();j++){
-            if(arrayOne[i] > arrayOne[j])
-                swap(arrayOne[i],arrayOne[j]);
-        }
-    }
-}
 
 int main() {
 
