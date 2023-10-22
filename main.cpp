@@ -19,7 +19,7 @@ void menu() {
     cout << "5 ... Preveri ali je zaporedje urejeno" << endl;
     cout << "6 ... Uredi s hitrim urejanjem brez mediane" << endl;
     cout << "7 ... Uredi s hitrim urejanjem z mediano" << endl;
-    cout << "8 ... Uredi z drugim algoritmom za urejanje" << endl;
+    cout << "8 ... Uredi z drugim algoritmom za urejanje" << endl; /* Te točke v prihodnje ne bom uporabljal*/
     cout << "0 ... KONEC" << endl;
     cout << "============================" << endl;
     cout << "IZBIRA: ";
