@@ -100,17 +100,19 @@ int main() {
                 cout << "Vpisite zeljeno dolzino za narascajoce zaporedje:" << endl;
                 cin >> value;
                 arrayOne.clear();
-                for (int i = 0; i < value; i++)
+                for (int i = 0; i < value; i++) {
                     arrayOne.push_back(i + 1);
-
+    cout <<  arrayOne.push_back(i + 1) << endl;
+                }
                 break;
             case 3:
                 cout << "Vpisite zeljeno dolzino za narascajoce zaporedje:" << endl;
                 cin >> value;
                 arrayOne.clear();
-                for (int i = 0; i < value; i++)
+                for (int i = 0; i < value; i++){
                     arrayOne.push_back(value - i);
-
+cout <<  arrayOne.push_back(i - 1) << endl;
+                }
                 break;
             case 4:
                 for (int i = 0; i < arrayOne.size(); i++)
