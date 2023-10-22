@@ -19,7 +19,11 @@ void menu() {
     cout << "5 ... Preveri ali je zaporedje urejeno" << endl;
     cout << "6 ... Uredi s hitrim urejanjem brez mediane" << endl;
     cout << "7 ... Uredi s hitrim urejanjem z mediano" << endl;
+<<<<<<< HEAD
     cout << "8 ... Uredi z drugim algoritmom za urejanje" << endl; /* Te točke v prihodnje ne bom uporabljal*/
+=======
+    cout << "8 ... Uredi z drugim algoritmom za urejanje" << endl;
+>>>>>>> e0927c1f10f472571508c99286820a065cd95533
     cout << "0 ... KONEC" << endl;
     cout << "============================" << endl;
     cout << "IZBIRA: ";
@@ -72,7 +76,19 @@ void quickSortMedian(vector<int>& arrayOne, int bottom, int top) {
     }
 }
 
+<<<<<<< HEAD
 
+=======
+void selectionSort(vector<int>& arrayOne){
+
+    for(int i=0;i < arrayOne.size()-1;i++){
+        for(int j=i+1;j < arrayOne.size();j++){
+            if(arrayOne[i] > arrayOne[j])
+                swap(arrayOne[i],arrayOne[j]);
+        }
+    }
+}
+>>>>>>> e0927c1f10f472571508c99286820a065cd95533
 
 int main() {
 
@@ -100,19 +116,31 @@ int main() {
                 cout << "Vpisite zeljeno dolzino za narascajoce zaporedje:" << endl;
                 cin >> value;
                 arrayOne.clear();
+<<<<<<< HEAD
                 for (int i = 0; i < value; i++) {
                     arrayOne.push_back(i + 1);
     cout <<  arrayOne.push_back(i + 1) << endl;
                 }
+=======
+                for (int i = 0; i < value; i++)
+                    arrayOne.push_back(i + 1);
+
+>>>>>>> e0927c1f10f472571508c99286820a065cd95533
                 break;
             case 3:
                 cout << "Vpisite zeljeno dolzino za narascajoce zaporedje:" << endl;
                 cin >> value;
                 arrayOne.clear();
+<<<<<<< HEAD
                 for (int i = 0; i < value; i++){
                     arrayOne.push_back(value - i);
 cout <<  arrayOne.push_back(i - 1) << endl;
                 }
+=======
+                for (int i = 0; i < value; i++)
+                    arrayOne.push_back(value - i);
+
+>>>>>>> e0927c1f10f472571508c99286820a065cd95533
                 break;
             case 4:
                 for (int i = 0; i < arrayOne.size(); i++)
